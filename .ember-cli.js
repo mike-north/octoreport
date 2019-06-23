@@ -3,6 +3,7 @@
 process.env.EMBER_VERSION = "OCTANE";
 
 module.exports = {
+  useYarn: true,
   /**
     Ember CLI sends analytics information by default. The data is completely
     anonymous, but there are times when you might want to disable this behavior.
